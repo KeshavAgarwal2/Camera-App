@@ -11,7 +11,7 @@ request.addEventListener("upgradeneeded",function(){
     db.createObjectStore("gallery",{keyPath:"mId"});
 })
 
-request.addEventListener("error",function(){
+ request.addEventListener("error",function(){
     alert("error");
 })
 

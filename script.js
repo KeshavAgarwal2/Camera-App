@@ -8,6 +8,7 @@ let galleryBtn=document.querySelector(".gallery-btn");
 let isRecording = false;
 let chunks = [];
 
+
 const minZoom=1;
 const maxZoom=3;
 let currZoom=1; 
